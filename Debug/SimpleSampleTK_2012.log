@@ -1,0 +1,22 @@
+﻿Build started 2015/8/19 10:22:50.
+     1>Project "E:\Dev\StockWall\C++\SimpleSampleDirectXTK\SimpleSampleTK_2012.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\DirectXTK\Inc /I..\DXUT\Core /I..\DXUT\Optional /ZI /nologo /W4 /WX- /Od /Oi /Oy- /D WIN32 /D _DEBUG /D DEBUG /D PROFILE /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /openmp- /Yu"DXUT.h" /Fp"Debug\SimpleSampleTK.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt  GraphicUtil.cpp
+         GraphicUtil.cpp
+     1>e:\dev\stockwall\c++\simplesampledirectxtk\graphicutil.h(71): warning C4091: 'typedef ' : ignored on left of 'colorVertice' when no variable is declared
+     1>e:\dev\stockwall\c++\simplesampledirectxtk\graphicutil.cpp(76): warning C4189: 'numElementsDefault' : local variable is initialized but not referenced
+     1>e:\dev\stockwall\c++\simplesampledirectxtk\graphicutil.cpp(69): warning C4189: 'layoutDefault' : local variable is initialized but not referenced
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Dev\StockWall\C++\Debug\SimpleSampleTK.exe" /INCREMENTAL /NOLOGO d3dcompiler.lib dxguid.lib winmm.lib comctl32.lib usp10.lib opencv_calib3d248d.lib opencv_contrib248d.lib opencv_core248d.lib opencv_features2d248d.lib opencv_flann248d.lib opencv_gpu248d.lib opencv_highgui248d.lib opencv_imgproc248d.lib opencv_legacy248d.lib opencv_ml248d.lib opencv_nonfree248d.lib opencv_objdetect248d.lib opencv_photo248d.lib opencv_stitching248d.lib opencv_ts248d.lib opencv_video248d.lib opencv_videostab248d.lib opencv_calib3d248.lib opencv_contrib248.lib opencv_core248.lib opencv_features2d248.lib opencv_flann248.lib opencv_gpu248.lib opencv_highgui248.lib opencv_imgproc248.lib opencv_legacy248.lib opencv_ml248.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\Dev\StockWall\C++\Debug\SimpleSampleTK.pdb" /SUBSYSTEM:WINDOWS /LARGEADDRESSAWARE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Dev\StockWall\C++\Debug\SimpleSampleTK.lib" /MACHINE:X86 /SAFESEH  Debug\SimpleSampleTK.res
+         Debug\SimpleSampleTK.obj
+         Debug\GraphicUtil.obj
+         E:\Dev\StockWall\C++\DirectXTK\Bin\Desktop_2012\Win32\Debug\DirectXTK.lib
+         E:\Dev\StockWall\C++\DXUT\Core\Bin\DirectXTK_2012\Win32\Debug\DXUT.lib
+         E:\Dev\StockWall\C++\DXUT\Optional\Bin\DirectXTK_2012\Win32\Debug\DXUTOpt.lib
+     1>SimpleSampleTK.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         SimpleSampleTK_2012.vcxproj -> E:\Dev\StockWall\C++\Debug\SimpleSampleTK.exe
+     1>Done Building Project "E:\Dev\StockWall\C++\SimpleSampleDirectXTK\SimpleSampleTK_2012.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.13
